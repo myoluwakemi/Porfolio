@@ -72,7 +72,7 @@ const Details = ({ imageDetails }) => {
                transition:{delay: 1.2, ...transition} }}
             className="details">
               <div className="location">
-                <span>Lagos</span>
+                <span>Lagos,</span>
                 <span>Nigeria</span>
               </div>
               <div className="role">Frontend Engineer</div>
@@ -132,7 +132,7 @@ const Details = ({ imageDetails }) => {
       <div className="detailed-information">
         <div className="container">
           <div className="row">
-            <h2 className="title">Lorem</h2>
+            <h2 className="title">Intro</h2>
             <p>
               Tech enthusiast, strong in problem-solving skills, JavaScript,
               React, database analysis and design. Skilled in developing
