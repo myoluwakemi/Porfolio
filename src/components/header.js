@@ -24,7 +24,7 @@ const Header = ({ darkMode, setDarkMode }) => {
     {
       id: 1,
       title: "CV",
-      route: "ewrt",
+      route: "https://drive.google.com/file/d/1_U3-Mr25EK0LaRoFkZ_7LaEg4N6huV8T/view?usp=sharing",
     },
     {
       id: 2,
