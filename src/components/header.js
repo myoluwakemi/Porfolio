@@ -43,7 +43,7 @@ const Header = ({ darkMode, setDarkMode }) => {
           <div onClick={() => setDarkMode(prevMode =>!prevMode)} className='toggle'>
           <span>🌗</span>
           </div>
-          <div className="menu"  onClick={() => setToggle(!toggle)}>MENU</div>
+          <div className="menu"  onClick={() => setToggle(!toggle)}>WORK</div>
           <div className={`links ${toggle ? 'link-active' : ''}`}>
 
             {

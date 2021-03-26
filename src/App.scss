@@ -55,39 +55,39 @@ html,body {
   }
 }
 
-@keyframes grain {
-  0%,
-  100% {
-    transform: translate(0, 0);
-  }
-  10% {
-    transform: translate(-5%, -10%);
-  }
-  20% {
-    transform: translate(-15%, 5%);
-  }
-  30% {
-    transform: translate(7%, -25%);
-  }
-  40% {
-    transform: translate(-5%, 25%);
-  }
-  50% {
-    transform: translate(-15%, 10%);
-  }
-  60% {
-    transform: translate(15%, 0%);
-  }
-  70% {
-    transform: translate(0%, 15%);
-  }
-  80% {
-    transform: translate(3%, 35%);
-  }
-  90% {
-    transform: translate(-10%, 10%);
-  }
-}
+//@keyframes grain {
+//  0%,
+//  100% {
+//    transform: translate(0, 0);
+//  }
+//  10% {
+//    transform: translate(-5%, -10%);
+//  }
+//  20% {
+//    transform: translate(-15%, 5%);
+//  }
+//  30% {
+//    transform: translate(7%, -25%);
+//  }
+//  40% {
+//    transform: translate(-5%, 25%);
+//  }
+//  50% {
+//    transform: translate(-15%, 10%);
+//  }
+//  60% {
+//    transform: translate(15%, 0%);
+//  }
+//  70% {
+//    transform: translate(0%, 15%);
+//  }
+//  80% {
+//    transform: translate(3%, 35%);
+//  }
+//  90% {
+//    transform: translate(-10%, 10%);
+//  }
+//}
 
 //header
 
@@ -364,7 +364,7 @@ main {
   height: 280px;
   width: 200px;
   border-radius: 10px;
-  box-shadow: -1rem 0 3rem #ccc;
+  box-shadow: -1rem 0 3rem rgba(128,128,128, 3);
   transition: 0.4s ease-out;
   position: relative;
   left: 0px;
