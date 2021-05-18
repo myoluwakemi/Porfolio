@@ -31,6 +31,12 @@ const Header = ({ darkMode, setDarkMode }) => {
       title: "Snack Gallery",
       route: "https://snackgallery.netlify.app/"
 
+    },
+    {
+      id: 2,
+      title: "Educators",
+      route: "https://educator-community.netlify.app"
+
     }
   ]
   return (
